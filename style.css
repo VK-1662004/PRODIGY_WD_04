@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #34495e;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background-color: beige;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+}
+.logo img {
+  width: 103px;
+  margin-top: 3px;
+}
+.navbar {
+  display: flex;
+}
+.navbar div {
+  padding: 30px 20px;
+}
+.navbar a {
+  color: #34495e;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  /* padding: 80px 20px; */
+  width: 90%;
+  padding-block: 79px;
+}
+.avatar img {
+  width: 360px;
+  margin-left: 347px;
+  margin-top: -174px;
+}
+.about {
+  text-align: center;
+}
+.about-text {
+  text-align: center;
+}
+.about-text h1 {
+  font-size: 55px;
+  line-height: 1;
+  color: #fff;
+}
+.about-text h1 > span {
+  background: var(
+    --Primary-Gradient,
+    linear-gradient(116deg, #ff8660 71.79%, #9a33ff 95.51%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-text p {
+  font-size: 18px;
+  margin-top: 30px;
+  color: #fff;
+}
+.about-btn {
+  margin-top: 30px;
+  text-align: center;
+}
+.Resume {
+  width: 195px;
+  height: 64px;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  font-size: 22px;
+  color: #fff;
+}
+.project-item a{
+  color: #C6CF9B;
+  border:1px solid antiquewhite ;
+  border-radius: 5px;
+  padding: 2px;
+  text-size-adjust: 2px;
+}
+.education {
+  text-align: center;
+  margin: 70px;
+}
+
+.education h2 {
+  font-size: 30px;
+}
+.education h2 {
+  background: var(
+    --Orange-Gradient,
+    linear-gradient(180deg, #b1c381 0%, #eec759 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.education ul li {
+  display: flex;
+  width: 500px;
+  margin: 20px auto;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 20px;
+}
+.primary-heading {
+  text-align: center;
+  font-size: 35px;
+}
+.heading-project {
+  background: var(
+    --Orange-Gradient,
+    linear-gradient(180deg, #ff8660 0%, #d5491d 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.projects {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.project-item {
+  margin: 50px;
+  border-radius: 18px 18px 0 0;
+}
+.project-item img {
+  width: 100%;
+  border-radius: 18px 18px 0 0;
+}
+.project-title {
+  padding: 15px;
+}
+.project-title h3 {
+  color: #fff;
+}
+
+.heading-experience {
+  background: var(
+    --Blue-Gradient,
+    linear-gradient(180deg, #5badff 0%, #1373d1 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.experience-item {
+  padding: 30px 0;
+}
+.experience-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.experience-title-container .date {
+  margin-left: auto;
+}
+.skills {
+  background: var(
+    --Blue-Gradient,
+    linear-gradient(180deg, #5badff 0%, #1373d1 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skills h1 {
+  color: #ff8660;
+  margin-left: 15px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+.Photoshop{
+  width: 149px;
+}
+.lang {
+  display: inline;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 242px;
+  justify-content: center;
+  margin-left: -105px;
+}
+
+.experience-item p {
+  color: #fff;
+}
+.date {
+  color: wheat;
+}
+.experience-title {
+  color: wheat;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+footer {
+  background-color: beige;
+  padding-block: 20px;
+  margin-top: 139px;
+}
+.project-item h2 {
+  color: wheat;
+}
+.project-item p {
+  color: #fff;
+}
+footer h2 {
+  color: #34495e;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+footer p {
+  font-size: 20px;
+}
+#Contact {
+  padding: 20px;
+}
+.social {
+  display: inline;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 196px;
+  justify-content: center;
+}
+.social img {
+  width: 100%;
+}
+.social-innerwrap {
+  width: 65px;
+}
+
+.footer {
+  padding-block: 20px;
+}
